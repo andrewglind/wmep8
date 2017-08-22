@@ -28,4 +28,4 @@ clean:
 	rm -f wmep8
 
 install::	wmep8
-	install -c -s -m 0755 wmy2k $(DESTDIR)/bin
+	install -c -s -m 0755 wmep8 $(DESTDIR)/bin
